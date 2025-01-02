@@ -40,9 +40,15 @@ img {
   position: relative;
   display: block;
 }
-header {
+.header.manu {
   position: relative;
   border-bottom: 1px solid #e7e9fc;
+}
+header div {
+  display: flex;
+}
+.web {
+  margin-right: 76px;
 }
 header .container {
   width: 1158px;
@@ -51,8 +57,6 @@ header .container {
   padding: 0 15px;
 }
 .logo {
-  position: relative;
-  top: 25.5px;
   display: flex;
   align-items: center;
 }
@@ -69,11 +73,11 @@ header .container {
   font-family: 'Raleway', sans-serif;
   color: #2e2f42;
 }
-.nav-ul {
+.nav-manu {
   display: flex;
   gap: 40px;
 }
-.nav-list {
+.header-list {
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
@@ -81,10 +85,10 @@ header .container {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-list:hover {
+.header-list:hover {
   color: #404bbf;
 }
-.nav-list:focus {
+.header-list:focus {
   color: #404bbf;
 }
 .container .nav ul {
@@ -100,7 +104,7 @@ header .container {
   top: 5px;
   left: 347px;
 }
-.address-ul {
+.address-manu {
   display: flex;
   gap: 40px;
 }
@@ -296,7 +300,6 @@ header .container {
 }
 .section-our-portfolio {
   position: relative;
-
   top: 144px;
   bottom: 432px;
   padding: 120px 0;
@@ -304,6 +307,7 @@ header .container {
 }
 
 .our-portfolio-div {
+  margin-bottom: 8px;
   position: relative;
   display: flex;
   align-items: flex-start;
