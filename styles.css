@@ -40,6 +40,9 @@ img {
   position: relative;
   display: block;
 }
+header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header.manu {
   position: relative;
   border-bottom: 1px solid #e7e9fc;
@@ -73,7 +76,8 @@ header .container {
   font-family: 'Raleway', sans-serif;
   color: #2e2f42;
 }
-.nav-manu {
+
+.header-list-manu {
   display: flex;
   gap: 40px;
 }
@@ -104,7 +108,7 @@ header .container {
   top: 5px;
   left: 347px;
 }
-.address-manu {
+.address-list-manu {
   display: flex;
   gap: 40px;
 }
@@ -246,6 +250,9 @@ header .container {
   top: 240px;
   background: #f4f4fd;
 }
+.our-team-section .container {
+  padding: 32px 0;
+}
 .tittle-our-team {
   margin-bottom: 72px;
   position: relative;
@@ -307,7 +314,7 @@ header .container {
 }
 
 .our-portfolio-div {
-  margin-bottom: 8px;
+  margin-bottom: 24px;
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -343,7 +350,7 @@ header .container {
   row-gap: 48px;
 }
 .our-portfolio-listt {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .small-tittle {
