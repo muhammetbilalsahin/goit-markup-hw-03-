@@ -36,6 +36,10 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+img {
+  position: relative;
+  display: block;
+}
 header {
   position: relative;
   border-bottom: 1px solid #e7e9fc;
@@ -184,7 +188,7 @@ header .container {
 .tittle-button:focus {
   background-color: #404bbf;
 }
-.section-2 {
+.section-peculiarities {
   position: relative;
   padding: 120px 0;
   width: 1128px;
@@ -193,22 +197,16 @@ header .container {
   top: 120px;
 }
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
   clip: rect(0, 0, 0, 0);
   overflow: hidden;
   white-space: nowrap;
 }
 
-.section-2-ul {
+.section-peculiarities-ul {
   display: flex;
   gap: 24px;
 }
-.section-2-list {
+.section-peculiarities-list {
   width: calc((100% - 72px) / 4);
 }
 .tittle-strategy {
@@ -256,7 +254,7 @@ header .container {
   text-transform: capitalize;
   color: #2e2f42;
 }
-.section-3-ul {
+.section-our-team-ul {
   display: flex;
   position: relative;
   left: 156px;
@@ -298,14 +296,26 @@ header .container {
 }
 .section-our-portfolio {
   position: relative;
+
   top: 144px;
   bottom: 432px;
   padding: 120px 0;
-
   left: 156px;
 }
 
-.section-our-portfolio div {
+.our-portfolio-div {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  width: 360px;
+  height: 120px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -328,7 +338,7 @@ header .container {
   column-gap: 24px;
   row-gap: 48px;
 }
-.our-portfolio-list {
+.our-portfolio-listt {
   width: calc((100% - 72px) / 4);
 }
 
@@ -353,6 +363,7 @@ header .container {
 }
 .footer-finish {
   position: relative;
+  padding: 100px 0;
   top: 120px;
   width: 1440px;
   height: 312px;
@@ -361,6 +372,7 @@ header .container {
 
 .logo-web {
   position: relative;
+
   display: inline-block;
   margin-bottom: 16px;
   font-family: 'Raleway', sans-serif;
@@ -370,7 +382,7 @@ header .container {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  top: 100px;
+
   left: 156px;
 }
 .studio-web {
@@ -389,5 +401,4 @@ header .container {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   left: 156px;
-  top: 120px;
 }
