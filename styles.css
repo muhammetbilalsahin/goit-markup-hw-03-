@@ -80,6 +80,9 @@ header .container {
 .studio-manu {
   display: flex;
   gap: 40px;
+  bottom: 24px;
+  top: 5px;
+  left: 347px;
 }
 .header-studio-list {
   padding: 24px 0;
@@ -95,7 +98,7 @@ header .container {
 .header-studio-list:focus {
   color: #404bbf;
 }
-.container .nav ul {
+.container .studio-manu {
   position: absolute;
   width: 261px;
   height: 24px;
@@ -109,6 +112,9 @@ header .container {
   left: 347px;
 }
 .address-list {
+  position: absolute;
+  top: 25.5px;
+  right: 24px;
   display: flex;
   gap: 40px;
 }
@@ -127,23 +133,6 @@ header .container {
 .address-list-info:hover,
 .address-list-tel:focus {
   color: #404bbf;
-}
-
-.container .address-list {
-  position: absolute;
-  display: flex;
-  gap: 40px;
-  top: 24px;
-  bottom: 24px;
-  right: 156px;
-}
-.container .address-list- {
-  position: absolute;
-  display: flex;
-  gap: 40px;
-  top: 24px;
-  bottom: 24px;
-  right: 347px;
 }
 
 .section-big-tittle {
