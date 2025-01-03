@@ -98,29 +98,27 @@ header .container {
 .header-studio-list:focus {
   color: #404bbf;
 }
-.container .studio-manu {
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  bottom: 24px;
-  top: 5px;
-  left: 347px;
-}
+
 .address-list {
-  position: absolute;
-  top: 25.5px;
-  right: 24px;
   display: flex;
   gap: 40px;
 }
 
-.address-list-info,
+.address-list-info {
+  position: absolute;
+  display: flex;
+  top: 24.5px;
+  right: 347px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .address-list-tel {
+  position: absolute;
+  display: flex;
+  top: 24px;
+  right: 156px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
