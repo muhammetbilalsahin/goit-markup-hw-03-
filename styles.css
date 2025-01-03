@@ -103,27 +103,17 @@ header .container {
   display: flex;
   gap: 40px;
 }
-
-.address-list-info {
-  position: absolute;
-  display: flex;
-  top: 24.5px;
-  right: 347px;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 .address-list-tel {
-  position: absolute;
-  display: flex;
+  position: relative;
   top: 24px;
-  right: 156px;
+  left: 347px;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .address-list-info:hover,
 .address-list-tel:hover {
   color: #404bbf;
