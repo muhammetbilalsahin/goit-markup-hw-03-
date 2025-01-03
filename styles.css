@@ -77,11 +77,11 @@ header .container {
   color: #2e2f42;
 }
 
-.list-manu {
+.studio-manu {
   display: flex;
   gap: 40px;
 }
-.header-list {
+.header-studio-list {
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
@@ -89,10 +89,10 @@ header .container {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-list:hover {
+.header-studio-list:hover {
   color: #404bbf;
 }
-.header-list:focus {
+.header-studio-list:focus {
   color: #404bbf;
 }
 .container .nav ul {
@@ -108,29 +108,24 @@ header .container {
   top: 5px;
   left: 347px;
 }
-.address-list-manu {
+.address-list {
   display: flex;
   gap: 40px;
 }
 
-.address-nav {
-  display: inline-block;
-
-  font-style: normal;
-}
-.address-list-2,
-.address-list {
+.address-list-info,
+.address-list-tel {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-list-2:hover,
-.address-list:hover {
+.address-list-info:hover,
+.address-list-tel:hover {
   color: #404bbf;
 }
-.address-list-2:hover,
-.address-list:focus {
+.address-list-info:hover,
+.address-list-tel:focus {
   color: #404bbf;
 }
 
@@ -142,7 +137,7 @@ header .container {
   bottom: 24px;
   right: 156px;
 }
-.container .address-list-2 {
+.container .address-list- {
   position: absolute;
   display: flex;
   gap: 40px;
@@ -205,15 +200,7 @@ header .container {
   top: 120px;
 }
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  overflow: hidden;
-  white-space: nowrap;
+  display: none;
 }
 
 .section-peculiarities-ul {
@@ -286,8 +273,8 @@ header .container {
 
   background: #fff;
 }
-.name-paragraph {
-  padding: 0, 32px;
+.our-team-section .container ul li div {
+  padding: 32px 0;
 }
 .name-our-team {
   text-align: center;
@@ -301,10 +288,8 @@ header .container {
   color: #2e2f42;
 }
 .paragraph-our-team {
-  margin-bottom: 16px;
+  position: relative;
   text-align: center;
-  width: 232px;
-  height: 56px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
