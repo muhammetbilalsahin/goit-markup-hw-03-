@@ -178,6 +178,9 @@ header .container {
 .tittle-button:focus {
   background-color: #404bbf;
 }
+.visually-hidden {
+  display: none;
+}
 .section-peculiarities {
   position: relative;
   padding: 120px 0;
@@ -185,9 +188,6 @@ header .container {
   height: 104px;
   left: 156px;
   top: 120px;
-}
-.visually-hidden {
-  display: none;
 }
 
 .section-peculiarities-ul {
